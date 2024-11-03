@@ -9,7 +9,7 @@ class account:
         print(self.__dict__)
     # Save
     def SaveData(self):
-        with open("DAT/account.txt","w") as file:
+        with open("DATA/account.txt","w") as file:
             dat = ""
             dat += self.username + ","
             dat += self.password
@@ -17,7 +17,7 @@ class account:
             file.write(dat)
     # Load
     def LoadData(self):
-        with open("DAT/account.txt","r") as file:
+        with open("DATA/account.txt","r") as file:
             dat = str(file.readline())
             self.username,self.password = dat.split(",")
     def RenamePass(self,new_P):
@@ -25,11 +25,15 @@ class account:
         self.SaveData()
     def Checking(self,_user,_pass):
         if _user == self.username and _pass == self.password:
-            print("Succeed !")
+            #print("Succeed !")
+            return True
         else:
-            print("Denied !")
+            #print("Denied !")
+            return False
 
+"""
 ac1 = account()
-ac1.show()
-ac1.RenamePass("20336")
 ac1.Checking("gmail.com","20336")
+ac1.RenamePass("20336")
+ac1.show()
+"""

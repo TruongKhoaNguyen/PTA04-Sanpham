@@ -38,7 +38,7 @@
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Log In&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="btn_Login">
     <property name="geometry">
      <rect>
       <x>150</x>
@@ -61,7 +61,7 @@
      <string>LOG IN</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit">
+   <widget class="QLineEdit" name="txt_Username">
     <property name="geometry">
      <rect>
       <x>220</x>
@@ -110,7 +110,7 @@
      <string>Password</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_2">
+   <widget class="QLineEdit" name="txt_Password">
     <property name="geometry">
      <rect>
       <x>220</x>
