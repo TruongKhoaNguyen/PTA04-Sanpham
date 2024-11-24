@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1182</width>
-    <height>991</height>
+    <height>741</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -20,7 +20,7 @@
       <x>10</x>
       <y>90</y>
       <width>81</width>
-      <height>861</height>
+      <height>601</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -87,11 +87,11 @@ border-radius:20px</string>
       </size>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_3">
+    <widget class="QPushButton" name="btnProfile">
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>780</y>
+       <y>510</y>
        <width>61</width>
        <height>61</height>
       </rect>
@@ -118,7 +118,7 @@ border-radius:20px</string>
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>700</y>
+       <y>430</y>
        <width>61</width>
        <height>61</height>
       </rect>
@@ -307,13 +307,382 @@ color:grey</string>
       <x>100</x>
       <y>90</y>
       <width>1071</width>
-      <height>861</height>
+      <height>601</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color:cyan</string>
     </property>
-    <widget class="QWidget" name="page"/>
+    <widget class="QWidget" name="page">
+     <widget class="QScrollArea" name="scrollArea">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>1051</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>1051</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>1051</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:white</string>
+      </property>
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents">
+       <property name="geometry">
+        <rect>
+         <x>-120</x>
+         <y>0</y>
+         <width>1240</width>
+         <height>219</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QFrame" name="frame_3">
+          <property name="minimumSize">
+           <size>
+            <width>301</width>
+            <height>201</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>301</width>
+            <height>201</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:coral</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout">
+           <item>
+            <widget class="QLabel" name="label">
+             <property name="text">
+              <string/>
+             </property>
+             <property name="pixmap">
+              <pixmap>D:/TRUONG_KHOA/MIND_X_Truong_Khoa/Python_ADVANCE/Nguyen_lieu/header.jpg</pixmap>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="btnPlay_PP">
+             <property name="text">
+              <string>Poppy Playtime</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame_4">
+          <property name="minimumSize">
+           <size>
+            <width>301</width>
+            <height>201</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>301</width>
+            <height>201</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:coral</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_2">
+           <item>
+            <widget class="QLabel" name="label_2">
+             <property name="text">
+              <string/>
+             </property>
+             <property name="pixmap">
+              <pixmap>D:/TRUONG_KHOA/MIND_X_Truong_Khoa/Python_ADVANCE/Nguyen_lieu/SlowChompers.png</pixmap>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="btnPlay_PVZ">
+             <property name="text">
+              <string>Plants vs Zombies</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame_5">
+          <property name="minimumSize">
+           <size>
+            <width>301</width>
+            <height>201</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>301</width>
+            <height>201</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:coral</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_3">
+           <item>
+            <widget class="QLabel" name="label_3">
+             <property name="text">
+              <string/>
+             </property>
+             <property name="pixmap">
+              <pixmap>D:/TRUONG_KHOA/MIND_X_Truong_Khoa/Python_ADVANCE/Nguyen_lieu/40883-79111-B3840B94-33C9-4304-96D9-2BEBF83ECBAD-xl.jpg</pixmap>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="btnPlay_RB">
+             <property name="text">
+              <string>Roblox</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame_6">
+          <property name="minimumSize">
+           <size>
+            <width>301</width>
+            <height>201</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>301</width>
+            <height>201</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:coral</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_4">
+           <item>
+            <widget class="QLabel" name="label_4">
+             <property name="text">
+              <string/>
+             </property>
+             <property name="pixmap">
+              <pixmap>D:/TRUONG_KHOA/MIND_X_Truong_Khoa/Python_ADVANCE/Nguyen_lieu/capsule_616x353.jpg</pixmap>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="btnPlay_GD">
+             <property name="text">
+              <string>Geometry Dash</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+     <widget class="QScrollArea" name="scrollArea_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>260</y>
+        <width>1051</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>1051</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>1051</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:white</string>
+      </property>
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents_2">
+       <property name="geometry">
+        <rect>
+         <x>-60</x>
+         <y>0</y>
+         <width>1240</width>
+         <height>219</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QFrame" name="frame_7">
+          <property name="minimumSize">
+           <size>
+            <width>301</width>
+            <height>201</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>301</width>
+            <height>201</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:coral</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame_8">
+          <property name="minimumSize">
+           <size>
+            <width>301</width>
+            <height>201</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>301</width>
+            <height>201</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:coral</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame_9">
+          <property name="minimumSize">
+           <size>
+            <width>301</width>
+            <height>201</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>301</width>
+            <height>201</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:coral</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame_10">
+          <property name="minimumSize">
+           <size>
+            <width>301</width>
+            <height>201</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>301</width>
+            <height>201</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:coral</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </widget>
     <widget class="QWidget" name="page_2"/>
    </widget>
   </widget>
