@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1182</width>
-    <height>741</height>
+    <height>706</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -18,9 +18,9 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>90</y>
+      <y>80</y>
       <width>81</width>
-      <height>601</height>
+      <height>571</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -91,7 +91,7 @@ border-radius:20px</string>
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>510</y>
+       <y>490</y>
        <width>61</width>
        <height>61</height>
       </rect>
@@ -118,7 +118,7 @@ border-radius:20px</string>
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>430</y>
+       <y>410</y>
        <width>61</width>
        <height>61</height>
       </rect>
@@ -161,7 +161,7 @@ border-radius:20px</string>
     <property name="frameShadow">
      <enum>QFrame::Raised</enum>
     </property>
-    <widget class="QPushButton" name="pushButton_5">
+    <widget class="QPushButton" name="btnBack">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -301,24 +301,27 @@ color:grey</string>
      </property>
     </widget>
    </widget>
-   <widget class="QStackedWidget" name="stackedWidget">
+   <widget class="QStackedWidget" name="mainStack">
     <property name="geometry">
      <rect>
-      <x>100</x>
-      <y>90</y>
-      <width>1071</width>
-      <height>601</height>
+      <x>90</x>
+      <y>80</y>
+      <width>1081</width>
+      <height>571</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color:cyan</string>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
     </property>
     <widget class="QWidget" name="page">
      <widget class="QScrollArea" name="scrollArea">
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>10</y>
+        <y>70</y>
         <width>1051</width>
         <height>221</height>
        </rect>
@@ -344,7 +347,7 @@ color:grey</string>
       <widget class="QWidget" name="scrollAreaWidgetContents">
        <property name="geometry">
         <rect>
-         <x>-120</x>
+         <x>0</x>
          <y>0</y>
          <width>1240</width>
          <height>219</height>
@@ -546,7 +549,7 @@ color:grey</string>
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>260</y>
+        <y>320</y>
         <width>1051</width>
         <height>221</height>
        </rect>
@@ -572,7 +575,7 @@ color:grey</string>
       <widget class="QWidget" name="scrollAreaWidgetContents_2">
        <property name="geometry">
         <rect>
-         <x>-60</x>
+         <x>-208</x>
          <y>0</y>
          <width>1240</width>
          <height>219</height>
@@ -602,6 +605,28 @@ color:grey</string>
           <property name="frameShadow">
            <enum>QFrame::Raised</enum>
           </property>
+          <layout class="QVBoxLayout" name="verticalLayout_5">
+           <item>
+            <widget class="QLabel" name="label_5">
+             <property name="text">
+              <string/>
+             </property>
+             <property name="pixmap">
+              <pixmap>D:/TRUONG_KHOA/MIND_X_Truong_Khoa/Python_ADVANCE/Nguyen_lieu/1-4624.jpg</pixmap>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="btnPlay_FF">
+             <property name="text">
+              <string>Free Fire</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
          </widget>
         </item>
         <item>
@@ -627,6 +652,28 @@ color:grey</string>
           <property name="frameShadow">
            <enum>QFrame::Raised</enum>
           </property>
+          <layout class="QVBoxLayout" name="verticalLayout_6">
+           <item>
+            <widget class="QLabel" name="label_6">
+             <property name="text">
+              <string/>
+             </property>
+             <property name="pixmap">
+              <pixmap>D:/TRUONG_KHOA/MIND_X_Truong_Khoa/Python_ADVANCE/Nguyen_lieu/lap-trinh-game-mario-1.jpg</pixmap>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="btnPlay_M">
+             <property name="text">
+              <string>Mario</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
          </widget>
         </item>
         <item>
@@ -652,6 +699,28 @@ color:grey</string>
           <property name="frameShadow">
            <enum>QFrame::Raised</enum>
           </property>
+          <layout class="QVBoxLayout" name="verticalLayout_7">
+           <item>
+            <widget class="QLabel" name="label_7">
+             <property name="text">
+              <string/>
+             </property>
+             <property name="pixmap">
+              <pixmap>D:/TRUONG_KHOA/MIND_X_Truong_Khoa/Python_ADVANCE/Nguyen_lieu/thumb Black Myth Wukong.jpg</pixmap>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="btnPlay_BMW">
+             <property name="text">
+              <string>Black Myth : Wukong</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
          </widget>
         </item>
         <item>
@@ -677,13 +746,94 @@ color:grey</string>
           <property name="frameShadow">
            <enum>QFrame::Raised</enum>
           </property>
+          <layout class="QVBoxLayout" name="verticalLayout_8">
+           <item>
+            <widget class="QLabel" name="label_8">
+             <property name="text">
+              <string/>
+             </property>
+             <property name="pixmap">
+              <pixmap>D:/TRUONG_KHOA/MIND_X_Truong_Khoa/Python_ADVANCE/Nguyen_lieu/among-us-hoang.jpeg</pixmap>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="btnPlay_A">
+             <property name="text">
+              <string>Among Us</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
          </widget>
         </item>
        </layout>
       </widget>
      </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>10</y>
+        <width>271</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Press Start 2P</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Popular Games</string>
+      </property>
+     </widget>
     </widget>
-    <widget class="QWidget" name="page_2"/>
+    <widget class="QWidget" name="page_2">
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>20</y>
+        <width>481</width>
+        <height>251</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>D:/TRUONG_KHOA/MIND_X_Truong_Khoa/Python_ADVANCE/Nguyen_lieu/header.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_11">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>290</y>
+        <width>481</width>
+        <height>251</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>D:/TRUONG_KHOA/MIND_X_Truong_Khoa/Python_ADVANCE/Nguyen_lieu/header.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_3"/>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
