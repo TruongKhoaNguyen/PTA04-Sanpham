@@ -99,6 +99,9 @@ border-radius:20px</string>
        <height>61</height>
       </rect>
      </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
      <property name="styleSheet">
       <string notr="true">background-color:white;
 border-radius:20px</string>
@@ -248,7 +251,7 @@ border-radius:20px</string>
       </size>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_8">
+    <widget class="QPushButton" name="btnExit">
      <property name="geometry">
       <rect>
        <x>1100</x>
@@ -256,6 +259,9 @@ border-radius:20px</string>
        <width>51</width>
        <height>51</height>
       </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
      </property>
      <property name="styleSheet">
       <string notr="true">background-color:white;
@@ -320,7 +326,7 @@ color:grey</string>
      <string notr="true">background-color:cyan</string>
     </property>
     <property name="currentIndex">
-     <number>1</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="page">
      <widget class="QScrollArea" name="scrollArea">
@@ -353,7 +359,7 @@ color:grey</string>
       <widget class="QWidget" name="scrollAreaWidgetContents">
        <property name="geometry">
         <rect>
-         <x>-208</x>
+         <x>0</x>
          <y>0</y>
          <width>1240</width>
          <height>219</height>
@@ -440,7 +446,7 @@ color:grey</string>
               <string/>
              </property>
              <property name="pixmap">
-              <pixmap>D:/TRUONG_KHOA/MIND_X_Truong_Khoa/Python_ADVANCE/Nguyen_lieu/SlowChompers.png</pixmap>
+              <pixmap>D:/TRUONG_KHOA/MIND_X_Truong_Khoa/Python_ADVANCE/Nguyen_lieu/game-plants-vs-zombies-2.jpg</pixmap>
              </property>
              <property name="scaledContents">
               <bool>true</bool>
@@ -593,7 +599,7 @@ color:grey</string>
       <widget class="QWidget" name="scrollAreaWidgetContents_2">
        <property name="geometry">
         <rect>
-         <x>-208</x>
+         <x>0</x>
          <y>0</y>
          <width>1240</width>
          <height>219</height>
@@ -856,7 +862,7 @@ color:grey</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>D:/TRUONG_KHOA/MIND_X_Truong_Khoa/Python_ADVANCE/Nguyen_lieu/header.jpg</pixmap>
+       <pixmap>D:/TRUONG_KHOA/MIND_X_Truong_Khoa/Python_ADVANCE/Nguyen_lieu/ss_97ce80b071cef0bbc6b81c789c53de5bb7b9da6c.600x338.jpg</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
@@ -899,15 +905,15 @@ color:grey</string>
       <property name="geometry">
        <rect>
         <x>570</x>
-        <y>110</y>
+        <y>130</y>
         <width>491</width>
-        <height>351</height>
+        <height>151</height>
        </rect>
       </property>
       <property name="minimumSize">
        <size>
-        <width>491</width>
-        <height>351</height>
+        <width>1</width>
+        <height>1</height>
        </size>
       </property>
       <property name="maximumSize">
@@ -925,16 +931,16 @@ color:grey</string>
        </font>
       </property>
       <property name="text">
-       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Museo Sans 500'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Nirmala UI'; font-size:12pt;&quot;&gt;ABOUT THIS GAME&lt;/span&gt;&lt;/p&gt;
-&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Nirmala UI'; font-size:12pt;&quot;&gt;- Bạn phải sống sót trong cuộc phiêu lưu kinh dị/giải đố này.&lt;br /&gt; Hãy cố gắng sống sót trước những món đồ chơi đầy thù hận đang chờ &lt;br /&gt; bạn trong nhà máy đồ chơi bị bỏ hoang.&lt;br /&gt; Sử dụng GrabPack của bạn để hack các mạch điện hoặc thu thập bất &lt;br /&gt; cứ thứ gì từ xa. Khám phá cơ sở bí ẩn... và đừng để bị bắt.&lt;/span&gt;&lt;/p&gt;
-&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Nirmala UI'; font-style:italic;&quot;&gt;(Nguồn : Steam)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       <string>- You must stay alive in this horror/puzzle adventure.
+- Try to survive the vengeful toys waiting for you in the abandoned 
+toy factory.
+- Use your GrabPack to hack electrical circuits or nab anything from 
+afar.
+- Explore the mysterious facility... and don't get caught.
+(Nguồn : Steam)</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton">
+     <widget class="QPushButton" name="letplay_PP">
       <property name="geometry">
        <rect>
         <x>570</x>
@@ -942,6 +948,9 @@ p, li { white-space: pre-wrap; }
         <width>491</width>
         <height>61</height>
        </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
       </property>
       <property name="styleSheet">
        <string notr="true">background-color:lime</string>
@@ -960,6 +969,19 @@ p, li { white-space: pre-wrap; }
        </size>
       </property>
      </widget>
+     <widget class="QLabel" name="label_34">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>100</y>
+        <width>501</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;ABOUT THIS GAME&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="page_3">
      <widget class="QLabel" name="label_12">
@@ -975,7 +997,7 @@ p, li { white-space: pre-wrap; }
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>D:/TRUONG_KHOA/MIND_X_Truong_Khoa/Python_ADVANCE/Nguyen_lieu/SlowChompers.png</pixmap>
+       <pixmap>D:/TRUONG_KHOA/MIND_X_Truong_Khoa/Python_ADVANCE/Nguyen_lieu/game-plants-vs-zombies-2.jpg</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
@@ -998,6 +1020,119 @@ p, li { white-space: pre-wrap; }
       </property>
       <property name="scaledContents">
        <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_28">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>20</y>
+        <width>491</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>491</width>
+        <height>71</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>491</width>
+        <height>71</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Nirmala UI</family>
+        <pointsize>24</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Plants vs Zombies&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_29">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>130</y>
+        <width>491</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>1</width>
+        <height>1</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>491</width>
+        <height>351</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Nirmala UI</family>
+        <pointsize>12</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>- Get ready to soil your plants as a mob of fun-loving zombies is about
+to invade your home.
+- Use your arsenal of 49 zombie-zapping plants — Peashooters, 
+Wall-nuts, Cherry bombs and more — to mulchify 26 types of 
+zombies before they break down your door.
+(Nguồn : App Store)</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="letplay_PVZ">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>480</y>
+        <width>491</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:lime</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>D:/TRUONG_KHOA/MIND_X_Truong_Khoa/Python_ADVANCE/Nguyen_lieu/PPPPPPPPPP.png</normaloff>D:/TRUONG_KHOA/MIND_X_Truong_Khoa/Python_ADVANCE/Nguyen_lieu/PPPPPPPPPP.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>43</width>
+        <height>43</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_35">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>100</y>
+        <width>501</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;ABOUT THIS GAME&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
     </widget>
@@ -1034,10 +1169,122 @@ p, li { white-space: pre-wrap; }
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>D:/TRUONG_KHOA/MIND_X_Truong_Khoa/Python_ADVANCE/Nguyen_lieu/40883-79111-B3840B94-33C9-4304-96D9-2BEBF83ECBAD-xl.jpg</pixmap>
+       <pixmap>D:/TRUONG_KHOA/MIND_X_Truong_Khoa/Python_ADVANCE/Nguyen_lieu/maxresdefault.jpg</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_30">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>20</y>
+        <width>491</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>491</width>
+        <height>71</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>491</width>
+        <height>71</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Nirmala UI</family>
+        <pointsize>24</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Roblox&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_31">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>130</y>
+        <width>491</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>1</width>
+        <height>1</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>491</width>
+        <height>351</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Nirmala UI</family>
+        <pointsize>12</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>- Roblox is the ultimate virtual universe that lets you create, share 
+experiences with friends, and be anything you can imagine.
+- Join millions of people and discover an infinite variety of immersive 
+experiences created by a global community!
+(Nguồn : Microsoft Store)</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="letplay_RB">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>480</y>
+        <width>491</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:lime</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>D:/TRUONG_KHOA/MIND_X_Truong_Khoa/Python_ADVANCE/Nguyen_lieu/PPPPPPPPPP.png</normaloff>D:/TRUONG_KHOA/MIND_X_Truong_Khoa/Python_ADVANCE/Nguyen_lieu/PPPPPPPPPP.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>43</width>
+        <height>43</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_36">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>100</y>
+        <width>501</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;ABOUT THIS GAME&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
     </widget>
@@ -1074,10 +1321,124 @@ p, li { white-space: pre-wrap; }
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>D:/TRUONG_KHOA/MIND_X_Truong_Khoa/Python_ADVANCE/Nguyen_lieu/capsule_616x353.jpg</pixmap>
+       <pixmap>D:/TRUONG_KHOA/MIND_X_Truong_Khoa/Python_ADVANCE/Nguyen_lieu/ss_05cb182b93131a5faf0516232a7ad27c83f2c0e8.600x338.jpg</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_32">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>20</y>
+        <width>491</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>491</width>
+        <height>71</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>491</width>
+        <height>71</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Nirmala UI</family>
+        <pointsize>24</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Geometry Dash&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_33">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>130</y>
+        <width>491</width>
+        <height>151</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>1</width>
+        <height>1</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>491</width>
+        <height>351</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Nirmala UI</family>
+        <pointsize>12</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>- Jump and fly your way through danger in this rhythm-based action 
+platformer!
+- Prepare for a near impossible challenge in the world of Geometry 
+Dash.
+- Push your skills to the limit as you jump, fly and flip your way 
+through dangerous passages and spiky obstacles.
+(Nguồn : Steam)</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_37">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>100</y>
+        <width>501</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;ABOUT THIS GAME&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="letplay_GD">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>480</y>
+        <width>491</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:lime</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>D:/TRUONG_KHOA/MIND_X_Truong_Khoa/Python_ADVANCE/Nguyen_lieu/PPPPPPPPPP.png</normaloff>D:/TRUONG_KHOA/MIND_X_Truong_Khoa/Python_ADVANCE/Nguyen_lieu/PPPPPPPPPP.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>43</width>
+        <height>43</height>
+       </size>
       </property>
      </widget>
     </widget>
@@ -1114,10 +1475,128 @@ p, li { white-space: pre-wrap; }
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>D:/TRUONG_KHOA/MIND_X_Truong_Khoa/Python_ADVANCE/Nguyen_lieu/1-4624.jpg</pixmap>
+       <pixmap>D:/TRUONG_KHOA/MIND_X_Truong_Khoa/Python_ADVANCE/Nguyen_lieu/maxresdefault (1).jpg</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_38">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>20</y>
+        <width>491</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>491</width>
+        <height>71</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>491</width>
+        <height>71</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Nirmala UI</family>
+        <pointsize>24</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Free Fire&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_39">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>100</y>
+        <width>501</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;ABOUT THIS GAME&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_40">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>130</y>
+        <width>491</width>
+        <height>241</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>1</width>
+        <height>1</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>491</width>
+        <height>351</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Nirmala UI</family>
+        <pointsize>12</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>- Free Fire is a world-famous survival shooter game available on 
+mobile.
+- Each 10-minute game places you on a remote island where you are 
+pit against 49 other players, all seeking survival.
+- Players freely choose their starting point with their parachute, and 
+aim to stay in the safe zone for as long as possible.
+- Drive vehicles to explore the vast map, hide in the wild, or become
+ invisible by proning under grass or rifts.
+- Ambush, snipe, survive, there is only one goal: to survive and answer 
+the call of duty.
+(Nguồn : App Store)</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="letplay_FF">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>480</y>
+        <width>491</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:lime</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>D:/TRUONG_KHOA/MIND_X_Truong_Khoa/Python_ADVANCE/Nguyen_lieu/PPPPPPPPPP.png</normaloff>D:/TRUONG_KHOA/MIND_X_Truong_Khoa/Python_ADVANCE/Nguyen_lieu/PPPPPPPPPP.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>43</width>
+        <height>43</height>
+       </size>
       </property>
      </widget>
     </widget>
@@ -1154,10 +1633,121 @@ p, li { white-space: pre-wrap; }
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>D:/TRUONG_KHOA/MIND_X_Truong_Khoa/Python_ADVANCE/Nguyen_lieu/lap-trinh-game-mario-1.jpg</pixmap>
+       <pixmap>D:/TRUONG_KHOA/MIND_X_Truong_Khoa/Python_ADVANCE/Nguyen_lieu/images.png</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_41">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>20</y>
+        <width>491</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>491</width>
+        <height>71</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>491</width>
+        <height>71</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Nirmala UI</family>
+        <pointsize>24</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Super Mario&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_42">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>100</y>
+        <width>501</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;ABOUT THIS GAME&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="letplay_M">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>480</y>
+        <width>491</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:lime</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>D:/TRUONG_KHOA/MIND_X_Truong_Khoa/Python_ADVANCE/Nguyen_lieu/PPPPPPPPPP.png</normaloff>D:/TRUONG_KHOA/MIND_X_Truong_Khoa/Python_ADVANCE/Nguyen_lieu/PPPPPPPPPP.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>43</width>
+        <height>43</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_43">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>130</y>
+        <width>491</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>1</width>
+        <height>1</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>491</width>
+        <height>351</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Nirmala UI</family>
+        <pointsize>12</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>- SUPER MARIO BROS is an action game released in 1986 by Nintendo.
+- Mario and Luigi must go on a widespread adventure in order to 
+rescue Peach from the clutches of Bowser.
+(Nguồn : Nintendo offical website)</string>
       </property>
      </widget>
     </widget>
@@ -1194,10 +1784,124 @@ p, li { white-space: pre-wrap; }
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>D:/TRUONG_KHOA/MIND_X_Truong_Khoa/Python_ADVANCE/Nguyen_lieu/thumb Black Myth Wukong.jpg</pixmap>
+       <pixmap>D:/TRUONG_KHOA/MIND_X_Truong_Khoa/Python_ADVANCE/Nguyen_lieu/black-myth-7.png</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_44">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>20</y>
+        <width>491</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>491</width>
+        <height>71</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>491</width>
+        <height>71</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Nirmala UI</family>
+        <pointsize>24</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Black Myth : Wukong&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_45">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>100</y>
+        <width>501</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;ABOUT THIS GAME&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="letplay_BMW">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>480</y>
+        <width>491</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:lime</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>D:/TRUONG_KHOA/MIND_X_Truong_Khoa/Python_ADVANCE/Nguyen_lieu/PPPPPPPPPP.png</normaloff>D:/TRUONG_KHOA/MIND_X_Truong_Khoa/Python_ADVANCE/Nguyen_lieu/PPPPPPPPPP.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>43</width>
+        <height>43</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_46">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>130</y>
+        <width>491</width>
+        <height>161</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>1</width>
+        <height>1</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>491</width>
+        <height>351</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Nirmala UI</family>
+        <pointsize>12</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>- Wukong is an action RPG rooted in Chinese mythology.
+- The story is based on Journey to the West, one of the Four Great
+ Classical Novels of Chinese literature.
+- You shall set out as the Destined One to venture into the challenges
+ and marvels ahead, to uncover the obscured truth beneath the veil 
+of a glorious legend from the past.
+(Nguồn : PlayStation Store)</string>
       </property>
      </widget>
     </widget>
@@ -1234,10 +1938,122 @@ p, li { white-space: pre-wrap; }
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>D:/TRUONG_KHOA/MIND_X_Truong_Khoa/Python_ADVANCE/Nguyen_lieu/among-us-hoang.jpeg</pixmap>
+       <pixmap>D:/TRUONG_KHOA/MIND_X_Truong_Khoa/Python_ADVANCE/Nguyen_lieu/ss_41c3f20fa1faf5c9c7548b38a22c449bcfa9bc5e.600x338.jpg</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="letplay_A">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>480</y>
+        <width>491</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:lime</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>D:/TRUONG_KHOA/MIND_X_Truong_Khoa/Python_ADVANCE/Nguyen_lieu/PPPPPPPPPP.png</normaloff>D:/TRUONG_KHOA/MIND_X_Truong_Khoa/Python_ADVANCE/Nguyen_lieu/PPPPPPPPPP.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>43</width>
+        <height>43</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_47">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>20</y>
+        <width>491</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>491</width>
+        <height>71</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>491</width>
+        <height>71</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Nirmala UI</family>
+        <pointsize>24</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Among Us&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_48">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>100</y>
+        <width>501</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;ABOUT THIS GAME&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_49">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>130</y>
+        <width>491</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>1</width>
+        <height>1</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>491</width>
+        <height>351</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Nirmala UI</family>
+        <pointsize>12</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>- Play with 4-15 player online or via local WiFi as you attempt to 
+prepare your spaceship for departure, but beware as one or 
+more random players among the Crew are Impostors bent on 
+killing everyone!
+(Nguồn : Steam)</string>
       </property>
      </widget>
     </widget>

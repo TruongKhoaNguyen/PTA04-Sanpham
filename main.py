@@ -79,8 +79,8 @@ class Profile(QMainWindow):
         webbrowser.open("https://www.facebook.com/messages/t/27020118477575302")
     
     def information(self):
-        self.txtUsername.setText("Gooigi")
-        self.txtEmail.setText("Doraemon@gmail.com")
+        #self.txtUsername.setText("Gooigi")
+        #self.txtEmail.setText("Doraemon@gmail.com")
         self.txtHo.setText("Nguyễn")
         self.txtTen.setText("Khoa")
         self.txtSodienthoai.setText("098 XXX XXXX")
